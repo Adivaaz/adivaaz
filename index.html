@@ -1,1 +1,116 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adivaaz Store</title>
+
+<style>
+body{
+  font-family: Arial;
+  margin:0;
+  background:#f5f5f5;
+}
+
+header{
+  background:black;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-size:22px;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+  margin-top:20px;
+}
+
+.card{
+  width:280px;
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.title{
+  font-size:18px;
+  font-weight:bold;
+  margin:10px 0;
+}
+
+.price{
+  margin:5px 0;
+}
+
+.old{
+  color:red;
+  text-decoration:line-through;
+  margin-right:8px;
+}
+
+.new{
+  color:green;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.btn{
+  display:block;
+  text-align:center;
+  background:black;
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  text-decoration:none;
+  margin-top:10px;
+}
+
+.btn:hover{
+  background:#333;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+🔥 Adivaaz Premium Store
+</header>
+
+<div class="container">
+
+  <!-- WATCH -->
+  <div class="card">
+    <img src="watch.jpg">
+    <div class="title">Arabic Aura Men’s Watch</div>
+    <div class="price">
+      <span class="old">৳650</span>
+      <span class="new">৳550</span>
+    </div>
+    <a class="btn" href="#">🛒 Order Now</a>
+  </div>
+
+  <!-- FAN -->
+  <div class="card">
+    <img src="adivaaz-turbo-fan.jpg">
+    <div class="title">Adivaaz Turbo Fan</div>
+    <div class="price">
+      <span class="old">৳799</span>
+      <span class="new">৳699</span>
+    </div>
+    <a class="btn" href="#">🛒 Order Now</a>
+  </div>
+
+</div>
+
+</body>
+</html>
